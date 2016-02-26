@@ -14,5 +14,5 @@ In addition, this program will:
 	
 
 A data file called **tidy.txt** is written to the current directory. This file
-contains a dataset outlined in the **CookBook.md** file. In addition, the **CookBook.md**
+contains a dataset outlined in the **CodeBook.md** file. In addition, the **CodeBook.md**
 file contains summaries of data frames used to create the output **tidy.txt**.
