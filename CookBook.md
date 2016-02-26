@@ -6,58 +6,58 @@ are variable names and a summary of the dataset. In addtion, to the units
 for the respective observations.
 
 ### meanSmart
-meanSmart is the dataframe variable in used **run_analysis.R**. Column Names contained 
-within the dataset (tidy.R). 
+meanSmart is the data frame variable used in **run_analysis.R**. The column names contained 
+within the dataset (tidy.R) are listed below:
 
-	* sbj
-	* actindx
-	* actname
-	* timebodyacc-mean-x
-	* timebodyacc-mean-y
-	* timebodyacc-mean-z
-	* timegravityacc-mean-x
-	* timegravityacc-mean-y
-	* timegravityacc-mean-z
-	* timebodyaccjerk-mean-x
-	* timebodyaccjerk-mean-y
-	* timebodyaccjerk-mean-z
-	* timebodygyro-mean-x
-	* timebodygyro-mean-y
-	* timebodygyro-mean-z
-	* timebodygyrojerk-mean-x
-	* timebodygyrojerk-mean-y
-	* timebodygyrojerk-mean-z
-	* timebodyaccmag-mean
-	* timegravityaccmag-mean
-	* timebodyaccjerkmag-mean
-	* timebodygyromag-mean
-	* timebodygyrojerkmag-mean
-	* freqbodyacc-mean-x
-	* freqbodyacc-mean-y
-	* freqbodyacc-mean-z
-	* freqbodyacc-meanfreq-x
-	* freqbodyacc-meanfreq-y
-	* freqbodyacc-meanfreq-z
-	* freqbodyaccjerk-mean-x
-	* freqbodyaccjerk-mean-y
-	* freqbodyaccjerk-mean-z
-	* freqbodyaccjerk-meanfreq-x
-	* freqbodyaccjerk-meanfreq-y
-	* freqbodyaccjerk-meanfreq-z
-	* freqbodygyro-mean-x
-	* freqbodygyro-mean-y
-	* freqbodygyro-mean-z
-	* freqbodygyro-meanfreq-x
-	* freqbodygyro-meanfreq-y
-	* freqbodygyro-meanfreq-z
-	* freqbodyaccmag-mean
-	* freqbodyaccmag-meanfreq
-	* freqbodybodyaccjerkmag-mean
-	* freqbodybodyaccjerkmag-meanfreq
-	* freqbodybodygyromag-mean
-	* freqbodybodygyromag-meanfreq
-	* freqbodybodygyrojerkmag-mean
-	* freqbodybodygyrojerkmag-meanfreq
+*  sbj
+*  actindx
+*  actname
+*  timebodyacc-mean-x
+*  timebodyacc-mean-y
+*  timebodyacc-mean-z
+*  timegravityacc-mean-x
+*  timegravityacc-mean-y
+*  timegravityacc-mean-z
+*  timebodyaccjerk-mean-x
+*  timebodyaccjerk-mean-y
+*  timebodyaccjerk-mean-z
+*  timebodygyro-mean-x
+*  timebodygyro-mean-y
+*  timebodygyro-mean-z
+*  timebodygyrojerk-mean-x
+*  timebodygyrojerk-mean-y
+*  timebodygyrojerk-mean-z
+*  timebodyaccmag-mean
+*  timegravityaccmag-mean
+*  timebodyaccjerkmag-mean
+*  timebodygyromag-mean
+*  timebodygyrojerkmag-mean
+*  freqbodyacc-mean-x
+*  freqbodyacc-mean-y
+*  freqbodyacc-mean-z
+*  freqbodyacc-meanfreq-x
+*  freqbodyacc-meanfreq-y
+*  freqbodyacc-meanfreq-z
+*  freqbodyaccjerk-mean-x
+*  freqbodyaccjerk-mean-y
+*  freqbodyaccjerk-mean-z
+*  freqbodyaccjerk-meanfreq-x
+*  freqbodyaccjerk-meanfreq-y
+*  freqbodyaccjerk-meanfreq-z
+*  freqbodygyro-mean-x
+*  freqbodygyro-mean-y
+*  freqbodygyro-mean-z
+*  freqbodygyro-meanfreq-x
+*  freqbodygyro-meanfreq-y
+*  freqbodygyro-meanfreq-z
+*  freqbodyaccmag-mean
+*  freqbodyaccmag-meanfreq
+*  freqbodybodyaccjerkmag-mean
+*  freqbodybodyaccjerkmag-meanfreq
+*  freqbodybodygyromag-mean
+*  freqbodybodygyromag-meanfreq
+*  freqbodybodygyrojerkmag-mean
+*  freqbodybodygyrojerkmag-meanfreq
 
 #### Summary of the meanSmart data frame
 
@@ -167,7 +167,7 @@ within the dataset (tidy.R).
 	 3rd Qu.: 0.27467                
 	 Max.   : 1.00000                
 	 
- #### Units
+#### Units
 	 Listed Below are the Activity Name and Activity Index respectively
 
 			   actname actindx
@@ -186,92 +186,93 @@ within the dataset (tidy.R).
 ---- 
 
 ### meanStdSmart
-meanStdSmart is the data frame used to construct meanSmart in **run_analysis.R**.
+meanStdSmart is a data frame used to construct the meanSmart  data frame in 
+**run_analysis.R**.
 
-	* sbj
-	* actindx
-	* actname
-	* timebodyacc-mean-x
-	* timebodyacc-mean-y
-	* timebodyacc-mean-z
-	* timebodyacc-std-x
-	* timebodyacc-std-y
-	* timebodyacc-std-z
-	* timegravityacc-mean-x
-	* timegravityacc-mean-y
-	* timegravityacc-mean-z
-	* timegravityacc-std-x
-	* timegravityacc-std-y
-	* timegravityacc-std-z
-	* timebodyaccjerk-mean-x
-	* timebodyaccjerk-mean-y
-	* timebodyaccjerk-mean-z
-	* timebodyaccjerk-std-x
-	* timebodyaccjerk-std-y
-	* timebodyaccjerk-std-z
-	* timebodygyro-mean-x
-	* timebodygyro-mean-y
-	* timebodygyro-mean-z
-	* timebodygyro-std-x
-	* timebodygyro-std-y
-	* timebodygyro-std-z
-	* timebodygyrojerk-mean-x
-	* timebodygyrojerk-mean-y
-	* timebodygyrojerk-mean-z
-	* timebodygyrojerk-std-x
-	* timebodygyrojerk-std-y
-	* timebodygyrojerk-std-z
-	* timebodyaccmag-mean
-	* timebodyaccmag-std
-	* timegravityaccmag-mean
-	* timegravityaccmag-std
-	* timebodyaccjerkmag-mean
-	* timebodyaccjerkmag-std
-	* timebodygyromag-mean
-	* timebodygyromag-std
-	* timebodygyrojerkmag-mean
-	* timebodygyrojerkmag-std
-	* freqbodyacc-mean-x
-	* freqbodyacc-mean-y
-	* freqbodyacc-mean-z
-	* freqbodyacc-std-x
-	* freqbodyacc-std-y
-	* freqbodyacc-std-z
-	* freqbodyacc-meanfreq-x
-	* freqbodyacc-meanfreq-y
-	* freqbodyacc-meanfreq-z
-	* freqbodyaccjerk-mean-x
-	* freqbodyaccjerk-mean-y
-	* freqbodyaccjerk-mean-z
-	* freqbodyaccjerk-std-x
-	* freqbodyaccjerk-std-y
-	* freqbodyaccjerk-std-z
-	* freqbodyaccjerk-meanfreq-x
-	* freqbodyaccjerk-meanfreq-y
-	* freqbodyaccjerk-meanfreq-z
-	* freqbodygyro-mean-x
-	* freqbodygyro-mean-y
-	* freqbodygyro-mean-z
-	* freqbodygyro-std-x
-	* freqbodygyro-std-y
-	* freqbodygyro-std-z
-	* freqbodygyro-meanfreq-x
-	* freqbodygyro-meanfreq-y
-	* freqbodygyro-meanfreq-z
-	* freqbodyaccmag-mean
-	* freqbodyaccmag-std
-	* freqbodyaccmag-meanfreq
-	* freqbodybodyaccjerkmag-mean
-	* freqbodybodyaccjerkmag-std
-	* freqbodybodyaccjerkmag-meanfreq
-	* freqbodybodygyromag-mean
-	* freqbodybodygyromag-std
-	* freqbodybodygyromag-meanfreq
-	* freqbodybodygyrojerkmag-mean
-	* freqbodybodygyrojerkmag-std
-	* freqbodybodygyrojerkmag-meanfreq
+*  sbj
+*  actindx
+*  actname
+*  timebodyacc-mean-x
+*  timebodyacc-mean-y
+*  timebodyacc-mean-z
+*  timebodyacc-std-x
+*  timebodyacc-std-y
+*  timebodyacc-std-z
+*  timegravityacc-mean-x
+*  timegravityacc-mean-y
+*  timegravityacc-mean-z
+*  timegravityacc-std-x
+*  timegravityacc-std-y
+*  timegravityacc-std-z
+*  timebodyaccjerk-mean-x
+*  timebodyaccjerk-mean-y
+*  timebodyaccjerk-mean-z
+*  timebodyaccjerk-std-x
+*  timebodyaccjerk-std-y
+*  timebodyaccjerk-std-z
+*  timebodygyro-mean-x
+*  timebodygyro-mean-y
+*  timebodygyro-mean-z
+*  timebodygyro-std-x
+*  timebodygyro-std-y
+*  timebodygyro-std-z
+*  timebodygyrojerk-mean-x
+*  timebodygyrojerk-mean-y
+*  timebodygyrojerk-mean-z
+*  timebodygyrojerk-std-x
+*  timebodygyrojerk-std-y
+*  timebodygyrojerk-std-z
+*  timebodyaccmag-mean
+*  timebodyaccmag-std
+*  timegravityaccmag-mean
+*  timegravityaccmag-std
+*  timebodyaccjerkmag-mean
+*  timebodyaccjerkmag-std
+*  timebodygyromag-mean
+*  timebodygyromag-std
+*  timebodygyrojerkmag-mean
+*  timebodygyrojerkmag-std
+*  freqbodyacc-mean-x
+*  freqbodyacc-mean-y
+*  freqbodyacc-mean-z
+*  freqbodyacc-std-x
+*  freqbodyacc-std-y
+*  freqbodyacc-std-z
+*  freqbodyacc-meanfreq-x
+*  freqbodyacc-meanfreq-y
+*  freqbodyacc-meanfreq-z
+*  freqbodyaccjerk-mean-x
+*  freqbodyaccjerk-mean-y
+*  freqbodyaccjerk-mean-z
+*  freqbodyaccjerk-std-x
+*  freqbodyaccjerk-std-y
+*  freqbodyaccjerk-std-z
+*  freqbodyaccjerk-meanfreq-x
+*  freqbodyaccjerk-meanfreq-y
+*  freqbodyaccjerk-meanfreq-z
+*  freqbodygyro-mean-x
+*  freqbodygyro-mean-y
+*  freqbodygyro-mean-z
+*  freqbodygyro-std-x
+*  freqbodygyro-std-y
+*  freqbodygyro-std-z
+*  freqbodygyro-meanfreq-x
+*  freqbodygyro-meanfreq-y
+*  freqbodygyro-meanfreq-z
+*  freqbodyaccmag-mean
+*  freqbodyaccmag-std
+*  freqbodyaccmag-meanfreq
+*  freqbodybodyaccjerkmag-mean
+*  freqbodybodyaccjerkmag-std
+*  freqbodybodyaccjerkmag-meanfreq
+*  freqbodybodygyromag-mean
+*  freqbodybodygyromag-std
+*  freqbodybodygyromag-meanfreq
+*  freqbodybodygyrojerkmag-mean
+*  freqbodybodygyrojerkmag-std
+*  freqbodybodygyrojerkmag-meanfreq
 
- #### Summary of the meanStdSmart data frame
+#### Summary of the meanStdSmart data frame
 
 		  sbj           actindx        actname          timebodyacc-mean-x
 	 Min.   : 1.00   Min.   :1.000   Length:5894        Min.   :-1.0000   
@@ -442,7 +443,7 @@ meanStdSmart is the data frame used to construct meanSmart in **run_analysis.R**
 	 3rd Qu.: 0.27467                
 	 Max.   : 1.00000     
 	 
- #### Units
+#### Units
 	 Listed Below are the Activity Name and Activity Index respectively
 
 			   actname actindx
